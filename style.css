@@ -1,0 +1,43 @@
+body{margin: 0px; padding: 0px; background: gray;}
+#page{
+    width: 960px; height: 1200px;
+     background: white; margin:0px auto; margin-top: 50px; margin-bottom: 50px;
+     padding: 20px;
+     box-shadow: 10px 10px 10px black;}
+     #content{height: 900px;}
+     #top{padding: 20px; background: coral;}
+     #bottom{text-align: center;padding: 20px;}
+     a {text-decoration: none; font-size: 20px; color: black;}
+     a:hover{background: grey; color: coral; padding: 5px;}
+     .subject{text-align: center;}
+     #divSearch{
+         width: 700px; border: 2px solid coral;padding: 10px; margin: 0px auto;
+      margin-bottom: 10px;}
+
+      table{width: 900px; border-collapse: collapse; margin: 0px auto;}
+      td{border:1px solid gray; padding: 5px;}
+      .title{text-align: center;background: coral;color: gray;}
+      .row:hover{background: green;color: white;}
+      #divPage{width: 700px;text-align: center;padding: 10px;}
+      #darken-background {
+        position:absolute;
+        top:0px;
+        left:0px;
+        right:0px;
+        height:100%;
+        display:none;
+        background:rgba(0, 0, 0, 0.5);
+        z-index:10000;
+        overflow-y:scroll;
+    }
+    #lightbox {
+        width:700px;
+        margin:20px auto;
+        margin-top: 200px;
+        padding:15px;
+        border: 1px solid #333333;
+        border-radius:5px;
+        background:white;
+        box-shadow:0px 5px 5px rgba(34, 25, 25, 0.4);
+        text-align:center;
+    }
